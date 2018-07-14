@@ -1,16 +1,16 @@
 /**
  * Created by 10170 on 2018/7/11.
  */
-public class Producet {
+public class Product {
     private String id;
     private String name;
     private String desc;
     private Double price;
 
-    public Producet() {
+    public Product() {
     }
 
-    public Producet(String id, String name, String desc, Double price) {
+    public Product(String id, String name, String desc, Double price) {
         this.id = id;
         this.name = name;
         this.desc = desc;
@@ -51,7 +51,7 @@ public class Producet {
 
     @Override
     public String toString() {
-        return "Producet{" +
+        return "Product{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", desc='" + desc + '\'' +
