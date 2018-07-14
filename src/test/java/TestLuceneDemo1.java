@@ -38,7 +38,7 @@ public class TestLuceneDemo1 {
         //创建文档
         for (int i = 0; i < 10; i++) {
             Document document = new Document();
-            Producet producet = new Producet("" + i, "华硕笔记本 a", "hello 训练方法本身，对效果的影响却不是决定性的，因为训练的是每个特征的权重，权重细微的差别不会引起ctr的巨大变化。", 4999.9);
+            Producet producet = new Producet("" + i, "华硕笔记本 hello", "hello 训练方法本身，对效果的影响却不是决定性的，因为训练的是每个特征的权重，权重细微的差别不会引起ctr的巨大变化。", 4999.9);
             document.add(new StringField("id", producet.getId(), Field.Store.YES));
             document.add(new StringField("name", producet.getName(), Field.Store.YES));
             document.add(new TextField("desc", producet.getDesc(), Field.Store.YES));
