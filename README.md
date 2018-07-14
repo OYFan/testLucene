@@ -1,2 +1,2 @@
-# testgit
-这是一个测试
+# testLucene
+这是一个关于Lucene的Demo
